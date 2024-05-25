@@ -25,20 +25,17 @@ class Box {
         this.deliveryDate = deliveryDate;
     }
 
-    // Геттеры и сеттеры
 
     private static class MaxLiftingCapacity {
         private String unit;
         private int value;
 
-        // Геттеры и сеттеры
     }
 
     private static class Cargo {
         private String name;
         private String classType;
 
-        // Геттеры и сеттеры
     }
 
     public static Box createBoxFromJson(String filePath) throws IOException, ParseException {
